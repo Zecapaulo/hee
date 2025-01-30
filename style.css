@@ -440,7 +440,7 @@
 }
 
 .hero-shape-1:before {
-    background-color: var(--bs-dark);
+    background-color: var(--bs-blue);
     content: "";
     width: 50%;
     height: 80%;
@@ -450,7 +450,7 @@
 }
 
 .hero-shape-2 {
-    background-color: var(--bs-dark);
+    background-color: var(--bs-blue);
     width: 150px;
     height: 50%;
     position: absolute;
@@ -810,6 +810,10 @@
 .team .team-item .team-img {
     position: relative;
     overflow: hidden;
+    width: 100% !important;
+    max-height: 300px !important;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .team .team-item .team-img img {
